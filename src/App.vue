@@ -21,7 +21,7 @@ export default {
         },
 
         step: function () {
-            this.result+= this.result**this.result[this.result.length-1];
+            this.result += this.result ** this.result[this.result.length - 1];
         },
 
         calc: function () {
@@ -41,7 +41,7 @@ export default {
                 </label>
             </div>
             <div class="calculator">
-                <div class="numbers">23</div>
+                <div class="numbers">{{ result }}</div>
                 <div class="window">
                     <input type="text" class="input" @keyup.enter="calc" v-model="result" placeholder="0">
                 </div>
