@@ -23,7 +23,7 @@
 
 .input {
     background: $grey;
-    margin-top: 130px;
+    margin-top: 20%;
     border: none;
     padding: 10px 25px;
     border-radius: 10px;
@@ -42,7 +42,6 @@
     justify-items: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
-    margin-bottom: 32px;
 }
 
 .button {
@@ -69,7 +68,7 @@
 @media(min-width:500px) {
 
     .container {
-        max-height: 890px;
+        max-height: 900px;
         border-radius: 20px;
     }
 }
