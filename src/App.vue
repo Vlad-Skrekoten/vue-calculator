@@ -34,14 +34,7 @@ export default {
 <template>
     <main class="container">
         <main class="container">
-            <!-- <div class="head">
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
-            </div> -->
             <div class="calculator">
-                <!-- <div class="numbers">{{ result }}</div> -->
                 <div class="window">
                     <input type="text" class="input" @keyup.enter="calc" v-model="result" placeholder="0">
                 </div>
