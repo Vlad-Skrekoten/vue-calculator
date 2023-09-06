@@ -27,3 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Photo
+
+![зображення](https://github.com/Vlad-Skrekoten/vue-calculator/assets/88341932/caa86c6c-882c-4853-912c-b1b64dadf058)
+
